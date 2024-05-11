@@ -1,0 +1,45 @@
+nav {
+    background: #abffd1 !important;
+}
+
+.endpoint {}
+
+.endpoint .request::after {
+    content: attr(type);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;  
+    
+
+}
+.post {
+    background: #0061e0;
+
+}
+.get {
+    background: #d7a100;
+
+}
+.delete {
+    background: #d70000;
+
+}
+.put {
+    background: #5f00b3;
+
+}
+
+.url_p {
+    background: wheat;
+    padding: 5px;
+    font-family: monospace;
+}
+.des{
+    font-family: monospace;
+}
+.response{
+    color: rgb(0, 214, 0);
+    max-height: 40vh;
+    overflow-y: scroll;
+    display: none;
+}
