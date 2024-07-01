@@ -1,6 +1,0 @@
-{
-    "apiname": "PT Studio's PT UI API",
-    "version": "v1.1",
-    "description": "This is a example based api.<br>This is for developers page. <strong>Warning</strong>: Disable this page, when you use this in real environment. (api_info.json -> 'accessToEndPointDoc' set to false)",
-    "accessToEndPointDoc": true
-}
