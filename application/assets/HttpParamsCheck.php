@@ -7,10 +7,9 @@ class HttpParamsCheck{
             if(!array_key_exists($key, $requitments)){
                $errorFoud = true;
                break;
-            }
-            
+            }        
         }
-        http_response_code($errorFoud ? 415 : 200);
+        http_response_code($errorFoud ? 400 : 200);
     }
 }
 ?>
